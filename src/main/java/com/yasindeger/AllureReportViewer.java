@@ -63,6 +63,7 @@ public class AllureReportViewer {
                         if (osName.contains("win")) {
                             // Windows için komut
                             command = "cmd.exe allure serve " + tempDir.getAbsolutePath()+"/allure-results";
+
                             System.out.println("bana bu komut lazım  ===> " + command);
                         } else if (osName.contains("mac")) {
                             // MAC için komut
